@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#87dde0"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/dialog_cencel_button"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/quxiao" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="         随笔标题："
+            android:textColor="#ffff"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/notename_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="130dip"
+            android:textColor="#fff" />
+    </LinearLayout>
+</LinearLayout>
